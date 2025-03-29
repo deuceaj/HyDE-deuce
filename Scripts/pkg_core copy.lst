@@ -97,7 +97,7 @@ downgrade                                              # downgrade packages
 wttrbar                                                # for weather
 python-requests|wttrbar                                # script dependency
 archlinux-tweak-tool-git                               # Arch Linux tweaking tool
-
+arcolinux-grub-theme-vimix-git                         # Vimix GRUB theme from ArcoLinux
 timeshift                                              # system restore utility
 timeshift-autosnap                                     # auto snapshot with timeshift on package updates
 cifs-utils                                             # mount and use SMB/CIFS shares (Windows shares)
@@ -137,6 +137,7 @@ mangohud                                               # system performance over
 ffmpeg                                                 # multimedia framework for video/audio processing
 ffmpegthumbnailer                                      # creates thumbnails for video files
 vlc                                                    # multimedia player supporting various formats
+youtube-dl                                             # command-line video downloader
 
 # --------------------------------------------------- // Music
 cava                                                   # audio visualizer

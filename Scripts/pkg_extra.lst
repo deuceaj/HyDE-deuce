@@ -1,11 +1,18 @@
+
+
+
+###################
+#MY EXTRA PACKAGES
+###################
 # --------------------------------------------------- // System
 downgrade                                              # downgrade packages
 wttrbar                                                # for weather
 python-requests|wttrbar                                # script dependency
 archlinux-tweak-tool-git                               # Arch Linux tweaking tool
-arcolinux-grub-theme-vimix-git                         # Vimix GRUB theme from ArcoLinux
+#arcolinux-grub-theme-vimix-git                         # Vimix GRUB theme from ArcoLinux
 timeshift                                              # system restore utility
 timeshift-autosnap                                     # auto snapshot with timeshift on package updates
+cifs-utils                                             # mount and use SMB/CIFS shares (Windows shares)
 
 # --------------------------------------------------- // Shell
 oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
@@ -14,13 +21,15 @@ oh-my-zsh-git|zsh                                      # Optional plugin manager
 thunar-media-tags-plugin                               # Thunar plugin for media tag editing
 thunar-archive-plugin                                  # Thunar plugin for archive handling
 thunar-volman                                          # Volume management for Thunar
+baobab                                                 # GNOME disk usage analyzer
+ncdu                                                   # terminal disk usage analyzer
+ueberzug                                               # image preview for terminals (e.g., ranger)
 
 # --------------------------------------------------- // Misc
 xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
 input-remapper-git                                     # remap input devices like keyboards/gamepads
 ocs-url                                                # install packages/walls from store.kde.org
 pacseek                                                # TUI for searching packages
-pamac-all                                              # GUI package manager for Arch-based systems
 
 # --------------------------------------------------- // Networking
 remmina                                                # remote desktop client
@@ -29,11 +38,17 @@ libvncserver                                           # VNC backend for remmina
 nordvpn-bin                                            # VPN client
 nordpass-bin                                           # password manager
 nordtray-bin                                           # tray utility for Nord apps
+torbrowser-launcher                                    # launcher for the Tor Browser with auto updates
 
 # --------------------------------------------------- // Gaming
 steam                                                  # gaming platform
 gamemode                                               # daemon and library for game optimizations
 mangohud                                               # system performance overlay
+
+# --------------------------------------------------- // Media
+ffmpeg                                                 # multimedia framework for video/audio processing
+ffmpegthumbnailer                                      # creates thumbnails for video files
+vlc                                                    # multimedia player supporting various formats
 
 # --------------------------------------------------- // Music
 cava                                                   # audio visualizer
@@ -42,6 +57,8 @@ spicetify-cli                                          # cli to customize spotif
 
 # --------------------------------------------------- // Apps
 loupe                                                  # image viewer (replacement for Eye of GNOME)
+okular                                                 # KDE document viewer for PDFs, EPUBs, and more
+obsidian                                               # powerful Markdown-based note-taking app
 pcloud-drive                                           # pCloud desktop sync client
 wps-office                                             # alternative office suite
 
