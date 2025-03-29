@@ -28,14 +28,14 @@ dunst                                                  # notification daemon
 rofi-wayland                                           # application launcher
 waybar                                                 # system bar
 swww                                                   # wallpaper
-hyprlock                                               # lock screen
+#hyprlock                                               # lock screen
 wlogout                                                # logout menu
 grim                                                   # screenshot tool
 hyprpicker                                             # color picker
 slurp                                                  # region select for screenshot/screenshare
 satty                                                  # Modern Screenshot Annotation
 cliphist                                               # clipboard manager
-hyprsunset                                             # blue light filter
+#hyprsunset                                             # blue light filter
 
 # --------------------------------------------------- // Dependencies
 polkit-gnome                                           # authentication agent
@@ -76,22 +76,22 @@ fzf                                                    # Command-line fuzzy find
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
 zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
-pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
-eza|fish                                               # file lister for fish
-starship|fish                                          # customizable shell prompt
+#pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
+#eza|fish                                               # file lister for fish
+#starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
 
 # --------------------------------------------------- // HyDE
-hypridle                                               # idle daemon
+#hypridle                                               # idle daemon
 
 
 
 
 
 
-
-MY EXTRA PACKAGES
-
+###################
+#MY EXTRA PACKAGES
+###################
 # --------------------------------------------------- // System
 downgrade                                              # downgrade packages
 wttrbar                                                # for weather
